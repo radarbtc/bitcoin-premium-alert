@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <a href="#" id="newtab">
+      <img src="./radarbtc.png" width="48" height="48">
+    </a>
+    <h1>Monitor ágio Brasil x EUA</h1>
+    <div class="description">
+      O monitor de ágio serve para indicar o melhor momento de comprar Bitcoin
+      baseado no desconto em relação ao preço nos EUA.
+    </div>
+    <div class="pricing">
+      <b>BTC/BRL</b>
+      <div id="brl-price">
+      </div>
+    </div>
+    <div class="pricing">
+      <b>BTC/USD</b>
+      <div id="usd-price">
+      </div>
+    </div>
+    <div class="pricing">
+      <b>Ágio</b>
+      <div id="premium">
+      </div>
+    </div>
+    <hr/>
+    <h2>Leitura</h2>
+    <div class="explanation">
+      <b>< 2.5%:</b> bom momento de compra<br/>
+      <b>=< 4.0%:</b> alerta<br/>
+      <b>>= 4.0%:</b> esperar outro momento para comprar<br/>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

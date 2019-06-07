@@ -1,0 +1,43 @@
+body {
+  width: 200px;
+  height: 340px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #273c75;
+}
+
+h1 {
+  color: #dfe6e9;
+  text-shadow: 0 2px 6px rgba(20, 20, 20, 0.2);
+  cursor: pointer;
+}
+
+h1::selection {
+  background-color: none;
+}
+
+h2 {
+  color: #dfe6e9;
+  text-shadow: 0 2px 6px rgba(20, 20, 20, 0.2);
+  cursor: pointer;
+}
+
+h2::selection {
+  background-color: none;
+}
+
+.description {
+  color: #f5f6fa;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  width: auto;
+  height: 40px;
+  color: #fff;
+}
+
+.explanation {
+  height: 120px;
+  color: #dcdde1;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Alerta de Ágio Brasil-EUA",
+  "version": "1.0",
+  "description": "Alerta de ágio do preço Brasil (BRL) vs preço EUA (USD)",
+  "manifest_version": 2,
+  "permissions": [
+    "declarativeContent",
+    "storage",
+    "alarms",
+    "https://*.coinbase.com/*",
+    "https://*.bitcointrade.com.br/*",
+    "https://*.mercadobitcoin.net/*",
+    "https://*.kraken.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Monitor Ágio Brasil x USA",
+    "default_icon": {
+      "16": "./radarbtc.png",
+      "32": "./radarbtc.png",
+      "48": "./radarbtc.png",
+      "128": "./radarbtc.png"
+    }
+  },
+  "icons": {
+    "16": "./radarbtc.png",
+    "32": "./radarbtc.png",
+    "48": "./radarbtc.png",
+    "128": "./radarbtc.png"
+  }
+}
